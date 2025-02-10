@@ -370,6 +370,10 @@ func (schema Schema) MarshalYAML() (any, error) {
 		m["pattern"] = x
 	}
 
+	if x := schema.XGoName; x != "" {
+		m["x-go-name"] = x
+	}
+
 	// Array
 	if x := schema.MinItems; x != 0 {
 		m["minItems"] = x
