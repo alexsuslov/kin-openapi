@@ -131,6 +131,7 @@ type Schema struct {
 	MaxProps             *uint64              `json:"maxProperties,omitempty" yaml:"maxProperties,omitempty"`
 	AdditionalProperties AdditionalProperties `json:"additionalProperties,omitempty" yaml:"additionalProperties,omitempty"`
 	Discriminator        *Discriminator       `json:"discriminator,omitempty" yaml:"discriminator,omitempty"`
+	XGoName              string               `json:"x-go-name,omitempty" yaml:"x-go-name,omitempty"`
 }
 
 type Types []string

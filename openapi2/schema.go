@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"kin-openapi/openapi3"
 )
 
 type (

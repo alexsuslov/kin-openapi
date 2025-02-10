@@ -3,9 +3,8 @@ package openapi3
 import (
 	"encoding/json"
 	"fmt"
-	"strings"
-
 	"github.com/oasdiff/yaml"
+	"strings"
 )
 
 func unmarshalError(jsonUnmarshalErr error) error {

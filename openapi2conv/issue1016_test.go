@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi2"
 	"github.com/stretchr/testify/require"
+	"kin-openapi/openapi2"
 )
 
 func TestIssue1016(t *testing.T) {

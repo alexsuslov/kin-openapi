@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/getkin/kin-openapi/openapi3filter"
-	"github.com/getkin/kin-openapi/routers/gorillamux"
+	"kin-openapi/openapi3"
+	"kin-openapi/openapi3filter"
+	"kin-openapi/routers/gorillamux"
 )
 
 func Example() {
