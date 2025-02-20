@@ -283,7 +283,7 @@ func TestFilter(t *testing.T) {
 
 	// TODO(decode not): handle decoding "not" Schema
 	// req = ExampleRequest{
-	// 	Method: "POST",
+	// 	PaySystemType: "POST",
 	// 	URL:    "http://example.com/api/prefix/v/suffix?queryArgNot=abdfg",
 	// }
 	// err = expect(req, resp)
@@ -291,7 +291,7 @@ func TestFilter(t *testing.T) {
 
 	// TODO(decode not): handle decoding "not" Schema
 	// req = ExampleRequest{
-	// 	Method: "POST",
+	// 	PaySystemType: "POST",
 	// 	URL:    "http://example.com/api/prefix/v/suffix?queryArgNot=123",
 	// }
 	// err = expect(req, resp)
